@@ -354,7 +354,7 @@ class MenuBar extends React.Component {
                     className={styles.aboutIcon}
                     src={aboutIcon}
                 />
-                <MenuBarMenu
+                {/* <MenuBarMenu
                     className={classNames(styles.menuBarMenu)}
                     open={this.props.aboutMenuOpen}
                     place={this.props.isRtl ? 'right' : 'left'}
@@ -371,7 +371,7 @@ class MenuBar extends React.Component {
                             </MenuItem>
                         ))
                     }
-                </MenuBarMenu>
+                </MenuBarMenu> */}
             </div>
         );
     }
@@ -473,7 +473,7 @@ class MenuBar extends React.Component {
                                     description="Text for file dropdown menu"
                                     id="gui.menuBar.file"
                                 />
-                                <MenuBarMenu
+                                {/* <MenuBarMenu
                                     className={classNames(styles.menuBarMenu)}
                                     open={this.props.fileMenuOpen}
                                     place={this.props.isRtl ? 'left' : 'right'}
@@ -525,7 +525,7 @@ class MenuBar extends React.Component {
                                             </MenuItem>
                                         )}</SB3Downloader>
                                     </MenuSection>
-                                </MenuBarMenu>
+                                </MenuBarMenu> */}
                             </div>
                         )}
                         <div
@@ -541,7 +541,7 @@ class MenuBar extends React.Component {
                                     id="gui.menuBar.edit"
                                 />
                             </div>
-                            <MenuBarMenu
+                            {/* <MenuBarMenu
                                 className={classNames(styles.menuBarMenu)}
                                 open={this.props.editMenuOpen}
                                 place={this.props.isRtl ? 'left' : 'right'}
@@ -574,7 +574,7 @@ class MenuBar extends React.Component {
                                         </MenuItem>
                                     )}</TurboMode>
                                 </MenuSection>
-                            </MenuBarMenu>
+                            </MenuBarMenu> */}
 
                         </div>
                         {this.props.isTotallyNormal && (
@@ -591,7 +591,7 @@ class MenuBar extends React.Component {
                                         id="gui.menuBar.modeMenu"
                                     />
                                 </div>
-                                <MenuBarMenu
+                                {/* <MenuBarMenu
                                     className={classNames(styles.menuBarMenu)}
                                     open={this.props.modeMenuOpen}
                                     place={this.props.isRtl ? 'left' : 'right'}
@@ -621,7 +621,7 @@ class MenuBar extends React.Component {
                                             />
                                         </MenuItem>
                                     </MenuSection>
-                                </MenuBarMenu>
+                                </MenuBarMenu> */}
                             </div>
                         )}
                     </div>
